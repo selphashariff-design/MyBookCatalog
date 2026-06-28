@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Book Catalog</string>
+    <string name="short_description">A mobile application for browsing and exploring a collection of books with author information and book details.</string>
+    <string name="full_description">Book Catalog is an Android application that allows users to browse a collection of books. The application displays book covers, titles, authors, genres, and descriptions. Users can easily explore various categories of books through a simple and user-friendly interface.</string>
+</resources>
