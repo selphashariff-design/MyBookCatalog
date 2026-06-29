@@ -1,0 +1,301 @@
+# MOBILE APPLICATION DEVELOPMENT PRACTICAL REPORT
+
+## Student Name: Selpha Shariff
+
+## Registration Number: 20439
+
+## Unit: Mobile Application Development
+
+## Application Name: MyBookCatalog
+
+# TASK 1: DEVELOP A MOBILE APPLICATION
+
+## Objective
+
+To develop a mobile application called **MyBookCatalog** that displays a list of books and allows users to view detailed information about each book.
+
+## Development Environment
+
+* Android Studio
+* Java Programming Language
+* Android SDK
+* Android Emulator / Android Device
+
+## Application Features
+
+The application provides the following features:
+
+1. Displays a catalog of ten books.
+2. Displays book cover images stored in the Drawable folder.
+3. Allows users to select a book from the list.
+4. Displays detailed information about the selected book.
+5. Shows the title, author, genre, description, and image of the selected book.
+
+## Implementation Procedure
+
+### Step 1: Create Project
+
+A new Android Studio project named **MyBookCatalog** was created using the Empty Activity template.
+
+### Step 2: Add Drawable Images
+
+The provided book cover images were copied into the following directory:
+
+res/drawable
+
+These images were used as drawable resources within the application.
+
+### Step 3: Create Book Class
+
+A Book model class was created to store:
+
+* Title
+* Author
+* Genre
+* Description
+* Image Resource
+
+### Step 4: Design User Interface
+
+#### Main Screen
+
+The main screen contains:
+
+* ListView displaying all book titles
+
+#### Details Screen
+
+The details screen contains:
+
+* ImageView
+* TextView for Title
+* TextView for Author
+* TextView for Genre
+* TextView for Description
+
+### Step 5: Populate Book Data
+
+The following books were added:
+
+1. The Last Ember
+2. Quantum Mirage
+3. Roots & Wings
+4. The Mind Sculptor
+5. Inkbound: Chronicles of the Lost Library
+6. Startup Savage
+7. Beneath Crimson Skies
+8. The Art of Stillness
+9. Neon Ghosts
+10. Eat Green, Live Clean
+
+### Step 6: Application Execution
+
+The application was executed using an Android Emulator.
+
+### Output
+
+Main Screen:
+
+* Displays all book titles.
+
+Book Details Screen:
+
+* Displays book cover image.
+* Displays title.
+* Displays author.
+* Displays genre.
+* Displays description.
+
+## Conclusion
+
+The MyBookCatalog application was successfully developed and met all the specified requirements.
+
+---
+
+# TASK 2: TESTING AND DEBUGGING
+
+## Objective
+
+To verify that the application functions correctly and identify any errors.
+
+## Environment Setup
+
+The following tools were prepared:
+
+* Android Studio
+* Android SDK
+* Android Emulator
+* Android Device
+
+## Functional Testing
+
+| Test Case             | Expected Result           | Actual Result | Status |
+| --------------------- | ------------------------- | ------------- | ------ |
+| Launch Application    | App opens successfully    | Successful    | Pass   |
+| Display Book List     | Books displayed           | Successful    | Pass   |
+| Open Book Details     | Details displayed         | Successful    | Pass   |
+| Display Book Image    | Image displayed           | Successful    | Pass   |
+| Return to Main Screen | Previous screen displayed | Successful    | Pass   |
+
+## UI/UX Testing
+
+The application interface was evaluated based on:
+
+* Readability
+* Layout organization
+* Ease of navigation
+* User friendliness
+
+Result: PASS
+
+## Device Compatibility Testing
+
+| Device              | Result |
+| ------------------- | ------ |
+| Android 10 Emulator | Pass   |
+| Android 11 Emulator | Pass   |
+| Android 12 Emulator | Pass   |
+| Android 13 Device   | Pass   |
+
+## Debugging Activities
+
+Android Studio Logcat was used to monitor:
+
+* Errors
+* Warnings
+* Exceptions
+
+No critical runtime errors were detected.
+
+## Bugs Identified and Fixed
+
+### Bug 1
+
+Problem:
+Book details screen failed to open.
+
+Cause:
+Incorrect Intent configuration.
+
+Solution:
+Corrected Intent implementation.
+
+Status:
+Resolved.
+
+### Bug 2
+
+Problem:
+Application crash due to missing values.
+
+Cause:
+Null data.
+
+Solution:
+Added validation checks.
+
+Status:
+Resolved.
+
+### Bug 3
+
+Problem:
+Content overlap on smaller screens.
+
+Cause:
+Improper layout design.
+
+Solution:
+Implemented ScrollView.
+
+Status:
+Resolved.
+
+## Testing Summary
+
+All application functions performed successfully and all identified issues were resolved.
+
+---
+
+# TASK 3: PUBLISH MOBILE APPLICATION
+
+## Objective
+
+To prepare the application for release and simulate publication.
+
+## Preparing Application for Release
+
+The application was configured for release by:
+
+1. Generating a Signed App Bundle.
+2. Creating a Keystore.
+3. Selecting Release Build.
+
+Release Information:
+
+* Application Name: MyBookCatalog
+* Version Code: 1
+* Version Name: 1.0
+
+## Store Listing Preparation
+
+Application Details:
+
+* App Name: MyBookCatalog
+* Category: Books & Reference
+* Content Rating: Everyone
+* Language: English
+
+### Short Description
+
+Browse a collection of books and view detailed information about each book.
+
+### Full Description
+
+MyBookCatalog is a mobile application that allows users to browse a collection of books and view information including title, author, genre, description, and book cover image.
+
+## Google Play Console Simulation
+
+The following activities were performed:
+
+1. Created a new application entry.
+2. Entered application information.
+3. Uploaded the generated App Bundle.
+4. Added release notes.
+
+Release Notes:
+
+Version 1.0 – Initial Release.
+
+## Mobile Money API Simulation
+
+A payment button was added to simulate mobile money integration.
+
+Simulation Result:
+
+* Payment initiated.
+* Payment successful.
+* Transaction completed.
+
+## Version Upgrade Demonstration
+
+Initial Version:
+
+Version Code: 1
+Version Name: 1.0
+
+Updated Version:
+
+Version Code: 2
+Version Name: 1.1
+
+Enhancements:
+
+* Improved interface.
+* Fixed identified bugs.
+* Improved performance.
+* Enhanced stability.
+
+## Conclusion
+
+The MyBookCatalog application was successfully developed, tested, debugged, prepared for release, and simulated for publication. All requirements of the practical assessment were achieved successfully.
